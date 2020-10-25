@@ -1,3 +1,1 @@
-# This is a alumni-platform prototype
-
-click here to view
+# [An alumni platform prototype]()
