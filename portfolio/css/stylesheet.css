@@ -86,3 +86,8 @@ table.data td {
 table.data tr:last-child {
   border-bottom: 1px solid black;
 }
+img {
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
