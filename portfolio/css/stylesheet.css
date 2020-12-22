@@ -49,6 +49,11 @@ p.au-notes:before {
   content:"Author's Note: ";
   font-weight: bold;
 }
+p.copyright {
+  text-align: center;
+  color: Gray;
+  font-size: 70%;
+}
 h1 {
   padding-left: 16px;
   padding-right: 16px;
