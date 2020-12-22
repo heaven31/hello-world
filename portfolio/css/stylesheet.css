@@ -37,6 +37,7 @@ p {
   padding-left: 16px;
   padding-right: 16px;
   text-align: justify;
+  line-height: 1.6;
 }
 p.au-notes {
   background-color: #FBD581;
@@ -61,4 +62,27 @@ h2 {
 }
 .math {
   font-family: math;
+}
+.figure {
+  text-align: center;
+  color: Gray;
+}
+table {
+  border-collapse: collapse;
+  line-height: 1.6;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  padding-top: 8px;
+  text-align: center;
+}
+table.data th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+table.data td {
+  border: none;
+}
+table.data tr:last-child {
+  border-bottom: 1px solid black;
 }
