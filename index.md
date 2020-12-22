@@ -1,4 +1,4 @@
 # Welcome to my repository
-## [Fumes over the First Nation](hanwzhang.github.io/fyse_final.html)
-Click here for an essay on postcolonial environmentalism
+## [Author's Archives](hanwzhang.github.io/index.html)
+Click here for an archive of my essays
 
