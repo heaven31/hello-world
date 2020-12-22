@@ -8,6 +8,8 @@ body {
   min-width: 256px;
   padding-top: 0px;
   padding-bottom: 24px;
+  text-align: justify;
+  line-height: 1.6;
 }
 html {
   background-color: White;
@@ -36,8 +38,6 @@ nav ul li a {
 p {
   padding-left: 16px;
   padding-right: 16px;
-  text-align: justify;
-  line-height: 1.6;
 }
 p.au-notes {
   background-color: #FBD581;
