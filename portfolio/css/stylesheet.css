@@ -1,5 +1,5 @@
 body {
-  background-color: White;
+  background-color: white;
   font-family: system-ui;
   margin-top: auto;
   margin-left: auto;
@@ -7,12 +7,15 @@ body {
   max-width: 2048px;
   min-width: 256px;
   padding-top: 0px;
-  padding-bottom: 24px;
+  padding-bottom: 0px;
   text-align: justify;
   line-height: 1.6;
 }
 html {
-  background-color: White;
+  background-color: gray;
+  border-bottom: auto;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 nav ul {
   background-color: #223867;
@@ -20,7 +23,7 @@ nav ul {
   font-weight: bold;
   list-style-type: none;
   margin-top: 0px;
-  padding: 16px;
+  padding: 24px;
 }
 nav ul li {
   border-right: 2px solid #FFFFFF;
@@ -36,13 +39,13 @@ nav ul li a {
   text-decoration: none;
 }
 p {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 p.au-notes {
   background-color: #FBD581;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
   padding: 16px;
 }
 p.au-notes:before {
@@ -51,16 +54,21 @@ p.au-notes:before {
 }
 p.copyright {
   text-align: center;
-  color: Gray;
+  color: white;
   font-size: 70%;
+  background-color: gray;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  padding: 24px;
 }
 h1 {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 h2 {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .span {
   font-style: italic;
