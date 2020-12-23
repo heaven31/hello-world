@@ -8,7 +8,6 @@ body {
   min-width: 256px;
   padding-top: 0px;
   padding-bottom: 0px;
-  text-align: justify;
   line-height: 1.6;
 }
 html {
@@ -38,9 +37,25 @@ nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+nav ul li a.selected {
+  color: #FBD581;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+body ol li {
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: justify;
+}
 p {
   padding-left: 24px;
   padding-right: 24px;
+  text-align: justify;
+}
+p.viewing {
+  font-size: 80%;
+  text-align: left;
 }
 p.au-notes {
   background-color: #FBD581;
@@ -51,6 +66,7 @@ p.au-notes {
 p.au-notes:before {
   content:"Author's Note: ";
   font-weight: bold;
+  font-size: auto;
 }
 p.copyright {
   text-align: center;
