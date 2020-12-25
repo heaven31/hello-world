@@ -170,7 +170,7 @@ section b h3 a {
 }
 @media all and (max-width: 1080px) {
   html {
-    font-size: larger;
+    font-size: xx-large;
   }
   section b.one,section b.two {
     display: block;
