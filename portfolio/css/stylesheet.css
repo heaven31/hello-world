@@ -163,11 +163,15 @@ section b.two {
 }
 section b p {
   font-weight: normal;
+  font-size: normal;
 }
 section b h3 a {
   color:#223867;
 }
-@media all and (max-width: 900px) {
+@media all and (max-width: 1080px) {
+  html {
+    font-size: larger;
+  }
   section b.one,section b.two {
     display: block;
     width: calc(100% - 1em);
