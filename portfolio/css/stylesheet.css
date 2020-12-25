@@ -24,6 +24,7 @@ nav title {
   font-weight: bold;
   margin-top: 0px;
   padding: 0.7em;
+  padding-bottom: 0em;
   color: #FFFFFF;
   background-color: #223867;
 }
@@ -58,12 +59,7 @@ nav ul li a.selected {
 nav ul li a:hover {
   text-decoration: underline;
 }
-body ol li {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  text-align: justify;
-}
-p {
+p,body ol li {
   padding-left: 1.5em;
   padding-right: 1.5em;
   text-align: justify;
@@ -97,9 +93,16 @@ h1 {
   padding-left: 0.75em;
   padding-right: 0.75em;
 }
-h2 {
+h2,h3 {
   padding-left: 1em;
   padding-right: 1em;
+}
+h2 a,h3 a {
+  text-decoration: none;
+  color: black;
+}
+h2 a:hover, h3 a:hover {
+  text-decoration: underline;
 }
 .span {
   font-style: italic;
@@ -134,4 +137,46 @@ img {
   margin-right: 10%;
   margin-left: 10%;
   width: 80%;
+}
+section {
+  background-color: #dfdfdf;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  margin-top: 0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.5em;
+}
+section b.one {
+  margin-left: 0.5em;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FBD581;
+  width: calc(0.333*(100% - 2.5em))
+}
+section b.two {
+  margin-left: 0.5em;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FBD581;
+  width: calc(0.667*(100% - 1.5em))
+}
+section b p {
+  font-weight: normal;
+}
+section b h3 a {
+  color:#223867;
+}
+@media all and (max-width: 900px) {
+  section b.one,section b.two {
+    display: block;
+    width: calc(100% - 1em);
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.5em;
+  }
+  nav title {
+    display: block;
+    float: none;
+  }
 }
